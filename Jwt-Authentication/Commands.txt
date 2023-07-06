@@ -1,0 +1,5 @@
+Login: curl -v -H "Content-Type: application/json" -d "{\"email\":\"root.com\", \"password\":\"root\"}" localhost:8080/auth/login
+
+
+
+curl -v -H "Authorization: Bearer <token>" localhost:8080/product
